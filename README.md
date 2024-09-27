@@ -1,1 +1,21 @@
-# Digit_Recognition_System
+### Digit Recognition System using MNIST Dataset
+- **Setup:**
+  - Installed **TensorFlow**
+  - Loaded the **MNIST dataset**
+  - Explored the dataset structure (checking image shape, labels, etc.)
+  - Rechecked data for consistency
+  - Normalized the data (scaled pixel values to the range [0,1])
+- **Model Architecture:**
+  - Built a **Sequential Keras model**
+  - Added:
+    - Two pairs of **Conv2D** and **MaxPooling2D** layers
+    - **Flatten** layer to convert 2D feature maps to 1D
+    - **Dense** layer for classification
+- **Process:**
+  - Compiled the model (specified loss function, optimizer, and metrics)
+  - Trained the model with the training data
+  - Evaluated the model accuracy on test data
+  - Saved the trained model in **HDF5** format
+  - Used the saved model to perform digit predictions
+- **Tools:**
+  - **TensorFlow** and **Keras** for building and training the model.
